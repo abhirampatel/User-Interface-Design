@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Registration Form
+    </title>
+</head>
+
+<body background="pp.jpg">
+    <h2 align=center><font color="white"><b>Registration Form<b></font></h2>
+      <form>
+        <table align="center">
+            <tr>
+        <td><h4><font color="white">First Name :</font></h4>
+        <input type="text" name="First Name" required/></td>
+        <td><h4><font color="white">Last Name :</font></h4>
+          <input type="text" name="Last Name" required/></td>
+
+        </tr>
+        <tr>
+            <td>
+                <form >
+                    <label style="color:white">Gender</label>
+                    <br>
+                    <input type="radio" name="course" id="cse">
+                    <label style="color:white">male</label>
+                    <br>
+                    <input type="radio" name:"course" id="CYS">
+                    <label style="color:white">female</label>
+                    <br>
+                    <input type="radio" name:"course" id="CYS">
+                    <label style="color:white">others</label><br>
+                    </form>
+            </td>
+           
+        </tr>
+        <tr>
+            <td>
+                <form >
+                    <label style="color:white" for="Birthday">DOB:</label>
+                    <input type="date" id="DOB" name="date">
+                    <input type="submit">
+                  </form>
+            </td>
+        </tr>
+        </table>
+        <table align="center">
+            <tr>
+                <td>
+        <h4><font color="white">Email Id : </font> </h4>
+        <input type="email" name="Email Id" required/></td></tr>
+        <tr>
+            <td>
+        <h4><font color="white">Confirm Email Id : </font> </h4>
+        <input type="email" name="Email Id" required/></td></tr>
+        <tr>
+            <td>
+        <h4><font color="white">Collage Name :</font></h4>
+          <input type="text" name="Collage Name"/></td></tr>
+          <tr>
+            <td>
+        <h4><font color="white">Mobile Number :</font></h4>
+        <input type="text" minlength="10" pattern="[0-9]{10}" required/></td></tr>
+        <tr>
+            <td>
+        <h4><font color="white">Team Size :</font><h4>
+         <input type="text" minlength="5"   pattern="[0-9]{1}" required/><br><br></td></tr>
+         <tr>
+            <td>
+                <h4><font color="white">Select Event :
+          <select name="Event" id="Event">
+                    <option value="none" selected disabled hidden> Select a Event</option>
+                    <option value="Hackathon">Hackathon</option>
+                    <option value="Website Designing">Website Designing</option>
+                    <option value="Ethical hacking">Ethical Hacking</option>
+                    <option value="Project Presentation">Project Presentation</option>
+                    </select></font></h4>
+                    
+        <input type="submit" value="submit">
+        <input type="reset" value="reset"></td></tr>
+        <tr>
+            <td>
+                <p style="color:white">Give your Feedback below</p>
+     <form>
+      <textarea rows:"5" Cols:"50" name:"text" id="text"></textarea>
+      </form>
+            </td>
+        </tr>
+        <td align="right"><a href="index.html"><button><font color="black" ><font size="2">Home</font></font></button></a>
+        </td>
+        </html>
